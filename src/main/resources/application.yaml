@@ -1,0 +1,12 @@
+graphql:
+  servlet:
+    mapping: /graphql
+    enabled: true
+    corsEnabled: true
+  spqr:
+    gui:
+      enabled: true
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
