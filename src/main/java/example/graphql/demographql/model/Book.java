@@ -10,7 +10,7 @@ public class Book {
     private String name;
     private Integer pageCount;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     private Author author;
 
     public Long getId() {
